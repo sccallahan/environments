@@ -17,6 +17,9 @@
 #   System Packages:
 #       1) apt-get install bedtools libssl-dev libcurl4-openssl-dev libxml2-dev
 
+# NB: you may need to fix a cli.py file from hichipper
+# navigate to the cli.py file, then run: autopep8 -i cli.py
+
 name: hichipper
 channels:
   - conda-forge
